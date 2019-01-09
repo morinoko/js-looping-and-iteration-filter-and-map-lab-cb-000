@@ -20,7 +20,8 @@ function exactMatch(driverArray, attributeToMatch) {
 }
 
 function exactMatchToList(driverArray, attributeToMatch) {
-  return exactMatch(driverArray, attributeToMatch).map( function(driver) {
-    return driver.name;
-  });
+  return exactMatch(driverArray, attributeToMatch)
+    .map( function(driver) {
+      return driver.name;
+    });
 }
