@@ -19,6 +19,20 @@ function exactMatch(driverArray, attributeToMatch) {
   });
 }
 
+// Alternative:
+//
+// function exactMatch(driverArray, attributesToMatch) {
+//   return driverArray.filter( function(driver) {
+//     let matches = false;
+// 
+//     for (const key in attributesToMatch) {
+//       matches = driver[key] === attributesToMatch[key];
+//     }
+// 
+//     return matches;
+//   });
+// }
+
 function exactMatchToList(driverArray, attributeToMatch) {
   return exactMatch(driverArray, attributeToMatch)
     .map( function(driver) {
