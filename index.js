@@ -3,13 +3,13 @@ function driversWithRevenueOver(driverArray, revenue) {
 }
 
 function driverNamesWithRevenueOver(driverArray, revenue) {
-  
+
 }
 
-function exactMatch() {
-  
+function exactMatch(driverArray, attributeToMatch) {
+
 }
 
-function exactMatchToList() {
+function exactMatchToList(driverArray, attributeToMatch) {
   
 }
